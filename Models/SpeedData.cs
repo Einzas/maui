@@ -46,6 +46,8 @@ namespace speed.Models
         public string? Recaudo { get; set; }
         [JsonProperty("monto_factura")]
         public string? MontoFactura { get; set; }
+        [JsonProperty("estado")]
+        public string? Estado{ get; set; }
     }
 
 }

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\speed.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:speed.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\views\\estadopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:views\\estadopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\views\\barcodescannerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:views\\barcodescannerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\models\\speeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:models\\speeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\views\\estadopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:views\\estadopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\models\\speeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:models\\speeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\views\\barcodescannerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:views\\barcodescannerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|c:\\users\\jeimy\\onedrive\\documentos\\speedapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{A79A4BA5-AE0A-4BBF-9374-059D0874C9EA}|speed.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "speed",
-              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\speed.csproj",
-              "RelativeDocumentMoniker": "speed.csproj",
-              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\speed.csproj",
-              "RelativeToolTip": "speed.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-26T05:45:10.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{7d1a5679-04f2-3f4a-851f-855baa54731c}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BarcodeScannerPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\BarcodeScannerPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\BarcodeScannerPage.xaml.cs",
-              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\BarcodeScannerPage.xaml.cs",
-              "RelativeToolTip": "Views\\BarcodeScannerPage.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T05:33:46.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpeedData.cs",
-              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Models\\SpeedData.cs",
-              "RelativeDocumentMoniker": "Models\\SpeedData.cs",
-              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Models\\SpeedData.cs",
-              "RelativeToolTip": "Models\\SpeedData.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T05:05:46.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Services\\ApiService.cs",
               "RelativeToolTip": "Services\\ApiService.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAwwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T04:46:47.737Z",
+              "WhenOpened": "2024-09-27T00:50:39.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpeedData.cs",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Models\\SpeedData.cs",
+              "RelativeDocumentMoniker": "Models\\SpeedData.cs",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Models\\SpeedData.cs",
+              "RelativeToolTip": "Models\\SpeedData.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA9wDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T00:42:29.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\EstadoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\EstadoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\EstadoPage.xaml.cs",
+              "RelativeToolTip": "Views\\EstadoPage.xaml.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T00:39:22.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstadoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\EstadoPage.xaml",
+              "RelativeDocumentMoniker": "Views\\EstadoPage.xaml",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\EstadoPage.xaml",
+              "RelativeToolTip": "Views\\EstadoPage.xaml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowG8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-27T00:39:11.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BarcodeScannerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\BarcodeScannerPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BarcodeScannerPage.xaml",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Views\\BarcodeScannerPage.xaml",
+              "RelativeToolTip": "Views\\BarcodeScannerPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-27T00:39:05.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-27T00:35:23.105Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\jeimy\\OneDrive\\Documentos\\speedApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T04:19:58.189Z",
+              "WhenOpened": "2024-09-27T00:35:09.345Z",
               "EditorCaption": ""
             }
           ]

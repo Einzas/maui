@@ -95,26 +95,26 @@
 
 
                 <!-- Cambiar el estado select -->
-
-                <!--   <HorizontalStackLayout>
+                <HorizontalStackLayout>
                     <Label Text="Cambiar Estado: "
                            FontSize="Large"
                            HorizontalOptions="Start"/>
-                    <Picker x:Name="pickerEstado"
+                                    <Picker x:Name="pickerEstado"
                             HorizontalOptions="End"
                             Title="Seleccionar Estado"
-                            Margin="0,0,20,0">
+                            Margin="0,0,20,0"
+                            SelectedIndexChanged="OnEstadoChanged">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Generada</x:String>
                                 <x:String>En Transito</x:String>
-                                <x:String>Novedad</x:String>
                                 <x:String>Entregado</x:String>
-                                <x:String>Devuelto</x:String>
+                                <x:String>Devolución</x:String>
+                                <x:String>Novedad</x:String>
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                </HorizontalStackLayout> -->
+                </HorizontalStackLayout>
 
 
             </VerticalStackLayout>
