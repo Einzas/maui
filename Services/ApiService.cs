@@ -79,9 +79,16 @@ namespace speed.Services
                     var result = JsonConvert.DeserializeObject<ApiResponse>(jsonResponse);
 
                     Console.WriteLine(result);
-
+                    if (result == null)
+                    {
+                        throw new Exception("Error al obtener la guía");
+                    }
                     if (result.Status == 200)
                     {
+                        if (result.Data == null)
+                        {
+                            throw new Exception("No se encontraron datos");
+                        }
                         return result.Data;
                     }
                     else

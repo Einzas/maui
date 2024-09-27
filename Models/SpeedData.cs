@@ -10,42 +10,42 @@ namespace speed.Models
     public class SpeedData
     {
         [JsonProperty("id_speed")]
-        public string IdSpeed { get; set; }
+        public string? IdSpeed { get; set; }
 
         [JsonProperty("nombre_origen")]
-        public string NombreOrigen { get; set; }
+        public string? NombreOrigen { get; set; }
 
         [JsonProperty("ciudad_origen")]
-        public string CiudadOrigen { get; set; }
+        public string? CiudadOrigen { get; set; }
 
         [JsonProperty("direccion_origen")]
-        public string DireccionOrigen { get; set; }
+        public string? DireccionOrigen { get; set; }
 
         [JsonProperty("telefono_origen")]
-        public string TelefonoOrigen { get; set; }
+        public string? TelefonoOrigen { get; set; }
 
         [JsonProperty("referencia_origen")]
-        public string ReferenciaOrigen { get; set; }
+        public string? ReferenciaOrigen { get; set; }
 
         [JsonProperty("nombre_destino")]
-        public string NombreDestino { get; set; }
+        public string? NombreDestino { get; set; }
 
         [JsonProperty("ciudad_destino")]
-        public string CiudadDestino { get; set; }
+        public string? CiudadDestino { get; set; }
 
         [JsonProperty("direccion_destino")]
-        public string DireccionDestino { get; set; }
+        public string? DireccionDestino { get; set; }
 
         [JsonProperty("telefono_destino")]
-        public string TelefonoDestino { get; set; }
+        public string? TelefonoDestino { get; set; }
         [JsonProperty("contiene")]
-        public string Contiene { get; set; }
+        public string? Contiene { get; set; }
         [JsonProperty("guia")]
-        public string Guia { get; set; }
+        public string? Guia { get; set; }
         [JsonProperty("recaudo")]
-        public string Recaudo  { get; set; }
+        public string? Recaudo { get; set; }
         [JsonProperty("monto_factura")]
-        public string MontoFactura{ get; set; }
+        public string? MontoFactura { get; set; }
     }
 
-    }
+}

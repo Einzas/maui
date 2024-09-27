@@ -10,18 +10,18 @@ namespace speed.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        private string email;
-        private string password;
+        private string? email;
+        private string? password;
 
         public string Email
         {
-            get => email;
+            get => email ?? string.Empty;
             set => SetProperty(ref email, value);
         }
 
         public string Password
         {
-            get => password;
+            get => password ?? string.Empty;
             set => SetProperty(ref password, value);
         }
 
@@ -57,11 +57,12 @@ namespace speed.ViewModels
                         // Deserializa la respuesta del servidor
                         var result = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
 
+
                         // Guardar token en Preferences
-                        Preferences.Set("jwt_token", result.Token);
+                        Preferences.Set("jwt_token", result?.Token);
 
                         // Almacenar información del usuario
-                        Preferences.Set("user_name", result.Data.NombreUsers);
+                        Preferences.Set("user_name", result?.Data?.NombreUsers);
 
                         // Mostrar mensaje de éxito
                         await Application.Current.MainPage.DisplayAlert("Login Success", "Inicio de sesión exitoso", "OK");

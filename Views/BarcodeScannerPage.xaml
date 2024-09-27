@@ -3,10 +3,44 @@
              xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
              x:Class="speed.Views.BarcodeScannerPage"
              Title="Escanear Código de Barras">
-    <zxing:CameraBarcodeReaderView x:Name="barcodeReader"
-                               
-                                   BarcodesDetected="OnBarcodesDetected"
-                                   CameraLocation="Rear"
-                                   />
-    <!-- O true si lo necesitas -->
+    <Grid RowDefinitions="*, 60">
+
+        <zxing:CameraBarcodeReaderView
+            Grid.Row="0"
+            x:Name="barcodeReader"
+            BarcodesDetected="OnBarcodesDetected"
+            CameraLocation="Rear"/>
+
+        <!-- Menú inferior -->
+        <Grid Grid.Row="1"
+              ColumnDefinitions="*,*,*">
+            <!-- Tres columnas de tamaño uniforme -->
+            <Button Text="INICIO"
+                    BackgroundColor="#171931"
+                    TextColor="White"
+                    CornerRadius="0"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="OnInicioClicked"
+                    VerticalOptions="FillAndExpand"/>
+
+            <Button
+                BackgroundColor="#171931"
+                ImageSource="Resources/Images/barcode.png"
+                TextColor="White"
+                Grid.Column="1"
+                CornerRadius="0"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+
+            <Button Text="PERFIL"
+                    BackgroundColor="#171931"
+                    TextColor="White"
+                    Grid.Column="2"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="0"
+                    VerticalOptions="FillAndExpand"/>
+        </Grid>
+
+
+    </Grid>
 </ContentPage>

@@ -9,6 +9,6 @@ namespace speed.Models
     public class ApiResponse
     {
         public int Status { get; set; }
-        public SpeedData Data { get; set; }
+        public SpeedData? Data { get; set; }
     }
 }

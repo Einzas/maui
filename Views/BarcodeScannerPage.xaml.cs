@@ -1,8 +1,8 @@
 using speed.Services;
 using ZXing.Net.Maui;
 
-    namespace speed.Views
-    {
+namespace speed.Views
+{
 
     public partial class BarcodeScannerPage : ContentPage
     {
@@ -42,14 +42,7 @@ using ZXing.Net.Maui;
                     // Actualiza la interfaz de usuario en el hilo principal
                     await MainThread.InvokeOnMainThreadAsync(async () =>
                     {
-                        string message = $"Número de Guía: {guiaInfo.Guia}\n" +
-                                         $"Nombre del Cliente: {guiaInfo.NombreDestino}\n" +
-                                         $"Dirección: {guiaInfo.DireccionDestino}\n" +
-                                         $"Teléfono: {guiaInfo.TelefonoDestino}\n" +
-                                         $"Producto: {guiaInfo.Contiene}\n" +
-                                         $"Monto a Recibir: {(guiaInfo.Recaudo == "1" ? guiaInfo.MontoFactura : "Sin Recaudo")}";
-
-                        await DisplayAlert("Información de la Guía", message, "OK");
+                        Application.Current.MainPage = new NavigationPage(new EstadoPage(guiaInfo));
                     });
                 }
             }
@@ -69,7 +62,10 @@ using ZXing.Net.Maui;
             }
         }
 
-
+        private void OnInicioClicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+        }
 
     }
 }

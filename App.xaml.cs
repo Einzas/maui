@@ -1,5 +1,4 @@
 ﻿namespace speed;
-
 using speed.Views;
 
 public partial class App : Application

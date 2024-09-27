@@ -10,5 +10,7 @@ namespace speed.Views
             InitializeComponent();
             BindingContext = new LoginViewModel(); // Establecer el ViewModel
         }
+
+
     }
 }

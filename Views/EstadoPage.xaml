@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="speed.Views.EstadoPage">
+
+    <Grid RowDefinitions="*, 60">
+        <!-- La primera fila ocupa todo el espacio restante y la segunda tiene una altura fija -->
+
+        <!-- Contenido Principal -->
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Numero de Guía: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblGuia"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Nombre del Cliente: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblCliente"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Dirección de Entrega: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblDireccion"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Teléfono de Contacto: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblTelefono"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Monto a Cobrar: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblMonto"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Estado del Envío: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblEstado"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Contiene: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Label Text=""
+                           FontSize="Large"
+                           HorizontalOptions="End"
+                           TextColor="Red"
+                           Margin="0,0,20,0"
+                           x:Name="lblContiene"/>
+                </HorizontalStackLayout>
+
+
+                <!-- Cambiar el estado select -->
+
+                <!--   <HorizontalStackLayout>
+                    <Label Text="Cambiar Estado: "
+                           FontSize="Large"
+                           HorizontalOptions="Start"/>
+                    <Picker x:Name="pickerEstado"
+                            HorizontalOptions="End"
+                            Title="Seleccionar Estado"
+                            Margin="0,0,20,0">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Generada</x:String>
+                                <x:String>En Transito</x:String>
+                                <x:String>Novedad</x:String>
+                                <x:String>Entregado</x:String>
+                                <x:String>Devuelto</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </HorizontalStackLayout> -->
+
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Menú inferior -->
+        <Grid Grid.Row="1"
+              ColumnDefinitions="*,*,*">
+            <!-- Tres columnas de tamaño uniforme -->
+            <Button Text="INICIO"
+                    BackgroundColor="#171931"
+                    TextColor="White"
+                    CornerRadius="0"
+                    Clicked="OnInicioClicked"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"/>
+
+            <Button ImageSource="Resources/Images/barcode.png"
+                    BackgroundColor="#171931"
+                    TextColor="White"
+                    Grid.Column="1"
+                    CornerRadius="0"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="OnScanBarcodeClicked"
+                    VerticalOptions="FillAndExpand"/>
+
+            <Button Text="PERFIL"
+                    BackgroundColor="#171931"
+                    TextColor="White"
+                    Grid.Column="2"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="0"
+                    VerticalOptions="FillAndExpand"/>
+        </Grid>
+    </Grid>
+</ContentPage>

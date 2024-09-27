@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="speed.Views.LoginPage"
-             Title="Login">
+             x:Class="speed.Views.LoginPage">
+       <ScrollView>
+              <VerticalStackLayout
+                     Padding="20"
+                     VerticalOptions="CenterAndExpand">
 
-    <StackLayout Padding="20">
-        <Entry Placeholder="Email"
-               Text="{Binding Email}"/>
-        <Entry Placeholder="Password"
-               Text="{Binding Password}"
-               IsPassword="True"/>
-        <Button Text="Login"
-                Command="{Binding LoginCommand}"/>
-    </StackLayout>
+                     <Image Source="Resources/Images/speed.png"
+                            HeightRequest="100"
+                            HorizontalOptions="Center"/>
 
+                     <Label Text="Usuario"
+                            FontSize="Medium"
+                            HorizontalOptions="Center"/>
+                     <Entry Placeholder="Usuario"
+                            Text="{Binding Email}"/>
+                     <Label Text="Contraseña"
+                            FontSize="Medium"
+                            HorizontalOptions="Center"/>
+                     <Entry Placeholder="Contraseña"
+                            Text="{Binding Password}"
+                            IsPassword="True"/>
+                     <Button Text="Login"
+                             Command="{Binding LoginCommand}"/>
+              </VerticalStackLayout>
+       </ScrollView>
 </ContentPage>
